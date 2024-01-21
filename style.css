@@ -271,10 +271,26 @@ section .title::after{
     width: calc(33% - 20px);
     background: #222;
     text-align: center;
+    color: white;
     border-radius: 6px;
-    padding: 50px 25px;
+    padding: 25px 25px;
     cursor: pointer;
     transition: all 0.3s ease;
+    margin-bottom: 20px;
+    
+}
+a{
+    color: white;
+}
+a:visited {
+    color: white;
+  }
+.hua{
+    padding-inline-end: 25px;
+    padding-inline-start: 25px;
+}
+.hua1{
+    padding-bottom: 50px;
 }
 .services .serv-content .card:hover{
     background: crimson;
